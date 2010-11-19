@@ -1,0 +1,5 @@
+#!/bin/zsh -euf
+
+# TODO: Setup switch to push to the real database, otherwise to a development database (see app/README.md)
+cd $0:h/app
+couchapp push . tinderbox
